@@ -1,6 +1,8 @@
 pacman::p_load(dplyr, readr, purrr, adventr)
 
-input <- read_advent(day = 2, year = 2024)
+d <- 
+
+input <- read_advent(day = d, year = 2024)
 
 
 problem_one <- function(x) {
@@ -16,9 +18,9 @@ problem_two <- function(x) {
 
 
 problem_one(input) |>
-    submit_advent(level = 1, day = 2, year = 2024)
+    submit_advent(level = 1, day = d, year = 2024)
 
 problem_two(input) |>
-    submit_advent(level = 2, day = 2, year = 2024)
+    submit_advent(level = 2, day = d, year = 2024)
 
 
